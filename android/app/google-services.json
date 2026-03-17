@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "635035005771",
+    "project_id": "fytroai",
+    "storage_bucket": "fytroai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635035005771:android:330102fb19893c2405aece",
+        "android_client_info": {
+          "package_name": "com.fytroai.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635035005771-sfd7salgdrlqhhvmgf5pk9qnkp2ufket.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX73Blwelq4RrsHA9iLjqERwltcKqQkqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635035005771-nkub9h5a5pgdolcjmdpvv1e8k0p3vkg9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "635035005771-3rjkt7aqg8hvqerbrps7ng9uk0i1esl1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.anonymous.fytroai"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

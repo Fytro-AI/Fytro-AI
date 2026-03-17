@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Fytro AI",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "owner": "fytroai",
+    "slug": "fytro-ai",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "fytroai",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fytroai.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "Fytro AI uses the camera to let you take progress photos for fitness tracking.",
+        "NSPhotoLibraryUsageDescription": "Fytro AI lets you select progress photos from your photo library for tracking."
+      },
+      "runtimeVersion": "1.0.2"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-foreground.png",
+        "backgroundColor": "#000000",
+        "versionCode": 3
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.fytroai.app",
+      "googleServicesFile": "./android/app/google-services.json",
+      "runtimeVersion": "1.0.2"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.com.fytroai.app",
+          "enableGooglePlay": true
+        }
+      ],
+      "expo-router",
+      "expo-font",
+      "expo-secure-store",
+      "expo-video",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b6aeb020-1dba-4b8f-9be3-e6d0546a6044"
+      }
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/b6aeb020-1dba-4b8f-9be3-e6d0546a6044"
+    }
+  }
+}

@@ -1,0 +1,253 @@
+import { Platform, StyleSheet } from "react-native";
+import Colors from "../shared/Colors";
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#DDDDDD',
+    paddingHorizontal: 20,
+    paddingTop: Platform.OS === 'android' ? 40 : 30,
+  },
+  header: {
+    fontSize: 28,
+    fontWeight: "bold",
+    marginBottom: 20,
+    color: Colors.CHARCOAL,
+    textAlign: 'center',
+  },
+  exerciseBox: {
+    backgroundColor: Colors.WHITE,
+    borderRadius: 10,
+    padding: 16,
+    marginBottom: 20,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowOffset: { width: 0, height: 1 },
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  exerciseName: {
+    fontSize: 24,
+    fontWeight: "700",
+    marginBottom: 6,
+    textAlign: "left",
+    color: Colors.CHARCOAL,
+    maxWidth: 300,
+  },
+  repsRange: {
+    fontSize: 16,
+    fontStyle: "italic",
+    color: Colors.CHARCOAL,
+    marginBottom: 12,
+    textAlign: "center"
+  },
+  setRow: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 10,
+  },
+  setPerfect: {
+    backgroundColor: "#4caf50",
+  },
+  setOk: {
+    backgroundColor: "#352a17ff",
+  },
+  setBad: {
+    backgroundColor: "#f44336",
+  },
+  setDefault: {
+    backgroundColor: 'black',
+  },
+  restTimer: {
+    marginTop: 14,
+    fontStyle: "italic",
+    color: Colors.CHARCOAL,
+    fontSize: 16,
+  },
+  finishButton: {
+    marginBottom: 80,
+  },
+  center: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  minutesText: {
+    fontSize: 32,
+    fontWeight: "bold",
+    color: Colors.PRIMARY,
+  },
+  colonText: {
+    fontSize: 24,
+    fontWeight: "600",
+    color: '#8d7bffff',
+  },
+  secondsText: {
+    fontSize: 18,
+    color: '#8d7bffff',
+  },
+  readyText: {
+    fontSize: 20,
+    fontStyle: "italic",
+    color: Colors.GRAY,
+  },
+  modalOption: {
+    paddingVertical: 12,
+    paddingHorizontal: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: "#ccc"
+  },
+  modalOptionText: {
+    fontSize: 20,
+    textAlign: "center",
+    fontWeight: 'bold'
+  },
+  setRow: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 10,
+  },
+  setContainer: {
+    margin: 4,
+  },
+  weightInput: {
+    width: 80,
+    height: 80,
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: Colors.PRIMARY,
+    textAlign: "center",
+    fontSize: 20,
+    paddingVertical: 10,
+    color: Colors.CHARCOAL,
+  },
+  setButton: {
+    minWidth: 80,
+    height: 80,
+    paddingHorizontal: 8,
+    borderRadius: 12,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: 'black',
+    shadowColor: '#000',
+    shadowOpacity: 0.6,
+    shadowOffset: { width: 0, height: 1 },
+    shadowRadius: 4,
+  },
+  setButtonText: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: Colors.WHITE,
+    textAlign: "center",
+  },
+  menuModal: {
+    backgroundColor: "white",
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
+    padding: 20,
+    borderTopLeftRadius: 16,
+    borderTopRightRadius: 16,
+  },
+  menuItem: {
+    padding: 16,
+  },
+  menuItemText: {
+    fontSize: 18,
+    textAlign: "center",
+    color: Colors.CHARCOAL,
+  },
+  someShiIdk: {
+    backgroundColor: Colors.GRAY, 
+    marginTop: 10, 
+    borderRadius: 10,
+  },
+  someShiIdk2: {
+    flexDirection: "row", 
+    alignItems: "center", 
+    justifyContent: "center",
+  },
+  exitConfirm: { 
+    position: "absolute", 
+    left: 0 
+  },
+  modalOverlay: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "rgba(0,0,0,0.5)",
+    padding: 20,
+  },
+  modalContent: {
+    width: "100%",
+    borderRadius: 16,
+    backgroundColor: 'white',
+    padding: 24,
+    shadowColor: "#000",
+    shadowOpacity: 0.15,
+    shadowOffset: { width: 0, height: 4 },
+    shadowRadius: 8,
+    elevation: 4,
+  },
+  modalTitle: {
+    fontSize: 20,
+    fontWeight: "700",
+    marginBottom: 16,
+    color: Colors.CHARCOAL,
+    textAlign: "center",
+  },
+  modalInput: {
+    backgroundColor: "#DDDDDD",
+    borderRadius: 12,
+    paddingHorizontal: 14,
+    paddingVertical: 12,
+    fontSize: 16,
+    marginBottom: 20,
+    borderWidth: 1,
+    borderColor: "transparent",
+    color: Colors.CHARCOAL,
+  },
+  modalButtonRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 10,
+  },
+  modalButtonPrimary: {
+    flex: 1,
+    paddingVertical: 14,
+    marginRight: 6,
+    borderRadius: 10,
+    alignItems: "center",
+    backgroundColor: Colors.PRIMARY,
+  },
+  modalButtonPrimaryText: {
+    fontSize: 16,
+    fontWeight: "700",
+    color: Colors.WHITE,
+  },
+  modalButtonSecondary: {
+    paddingVertical: 14,
+    marginLeft: 6,
+    borderRadius: 10,
+    alignItems: "center",
+  },
+  modalButtonSecondaryText: {
+    fontSize: 16,
+    fontWeight: "700",
+    color: Colors.PRIMARY,
+  },
+  separator: {
+    height: 1,
+    width: '120%',
+    alignSelf: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.1)',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1, },
+    shadowOpacity: 1,
+    shadowRadius: 2,
+    elevation: 1,
+    borderRadius: 10,
+    marginBottom: 10,
+  },
+});

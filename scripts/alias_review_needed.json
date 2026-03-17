@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Behind the Back Barbell Shrug",
+    "srcKey": "behindthebackbarbellshrug",
+    "suggestion": "barbellshrugbehindtheback",
+    "score": 0.84
+  },
+  {
+    "name": "Crunch Machine",
+    "srcKey": "crunchmachine",
+    "suggestion": "abcrunchmachine",
+    "score": 0.85
+  },
+  {
+    "name": "Decline Dumbbell Fly",
+    "srcKey": "declinedumbbellfly",
+    "suggestion": "declinedumbbellflyes",
+    "score": 0.89
+  },
+  {
+    "name": "Incline Dumbbell Fly",
+    "srcKey": "inclinedumbbellfly",
+    "suggestion": "inclinedumbbellflyes",
+    "score": 0.89
+  },
+  {
+    "name": "L Pull Up",
+    "srcKey": "lpullup",
+    "suggestion": "pullup",
+    "score": 0.8
+  },
+  {
+    "name": "Reverse Fly",
+    "srcKey": "reversefly",
+    "suggestion": "reverseflyes",
+    "score": 0.8
+  },
+  {
+    "name": "Single Leg Extension",
+    "srcKey": "singlelegextension",
+    "suggestion": "singleleglegextension",
+    "score": 0.94
+  }
+]
